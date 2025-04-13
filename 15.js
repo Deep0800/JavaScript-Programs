@@ -11,4 +11,4 @@ class Lizard {
 
 const tommy = new Lizard({ newColor: "orange" });
 // console.log(tommy.colorChange('blue'))
-console.log(Lizard.colorChange('blue'))
+console.log(Lizard.colorChange('blue')) //blue

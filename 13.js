@@ -7,5 +7,5 @@ const reactJS = {
   web: true,
 };
 
-console.log(reactJS[code.type])
-console.log(reactJS[reactJS['type']])
+console.log(reactJS[code.type]) //true
+console.log(reactJS[reactJS['type']]) //false

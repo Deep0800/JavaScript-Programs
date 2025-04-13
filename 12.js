@@ -1,2 +1,2 @@
-console.log(+true);
-console.log(!"javaScript");
+console.log(+true); //1
+console.log(!"javaScript"); //false

@@ -1,9 +1,9 @@
 function showModal() {
   console.log(showModal.timeout);
 }
-
-showModal();
+ 
+showModal(); //undefined
 showModal.timeout = 200;
 
 showModal.timeout = 100;
-showModal();
+showModal(); //100
